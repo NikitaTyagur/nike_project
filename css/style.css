@@ -96,6 +96,15 @@ body{
     flex-direction: column;
 }
 
+.d-flex-change-1{
+    flex-direction: column;
+}
+
+.d-flex-change-2{
+    flex-direction: row !important;
+}
+
+
 .top-container .menu{
     gap: 24px;
 }
@@ -547,6 +556,15 @@ body{
     .d-flex-change{
         flex-direction: row;
     }
+
+    .d-flex-change-1{
+        flex-direction: row;
+    }
+    
+    .d-flex-change-2{
+        flex-direction: column !important;
+    }
+
     .bottom{
         flex-direction: row;
         align-items: flex-start;
